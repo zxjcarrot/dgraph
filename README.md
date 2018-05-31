@@ -57,18 +57,18 @@ makes it easy to build applications with it.
 
 ## Dgraph compared to other graph DBs
 
-| Features | Dgraph | Neo4j | Janus Graph |
-| -------- | ------ | ----- | ----------- |
-| Architecture | Sharded and Distributed | Single server (+ replicas in enterprise) | Layer on top of other distributed DBs |
-| Replication | Consistent | None in community edition (only available in enterprise) | Via underlying DB |
-| Data movement for shard rebalancing | Automatic | Not applicable (all data lies on each server) | Via underlying DB |
-| Language | GraphQL inspired | Cypher, Gremlin | Gremlin |
-| Protocols | Grpc / HTTP + JSON / RDF | Bolt + Cypher | Websocket / HTTP |
-| Transactions | Distributed ACID transactions | Single server ACID transactions | Not typically ACID
-| Full Text Search | Native support | Native support | Via External Indexing System |
-| Regular Expressions | Native support | Native support | Via External Indexing System |
-| Geo Search | Native support | External support only | Via External Indexing System |
-| License | Apache 2.0 + Commons Clause | GPL v3 | Apache 2.0 |
+| Features | Dgraph | Janus Graph |
+| -------- | ------ | ----------- |
+| Architecture | Sharded and Distributed  | Layer on top of other distributed DBs |
+| Replication | Consistent | Via underlying DB |
+| Data movement for shard rebalancing | Automatic |  Via underlying DB |
+| Language | GraphQL inspired | Gremlin |
+| Protocols | Grpc / HTTP + JSON / RDF  | Websocket / HTTP |
+| Transactions | Distributed ACID transactions  | Not typically ACID
+| Full Text Search | Native support  | Via External Indexing System |
+| Regular Expressions | Native support | Via External Indexing System |
+| Geo Search | Native support | Via External Indexing System |
+| License | Apache 2.0 + Commons Clause | Apache 2.0 |
 
 ## Users
 - **Dgraph official documentation is present at [docs.dgraph.io](https://docs.dgraph.io).**
